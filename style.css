@@ -157,10 +157,11 @@ width: 80px;
 .panel-all i{
     margin-left: 20px;
 }
-.panel-options{
-    display: flex;
+.panel-options p{
+    display: inline;
+    justify-content: space-around;   
 }
 p{
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
