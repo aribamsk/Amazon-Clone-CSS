@@ -128,13 +128,39 @@ width: 80px;
     width: 90px;
     display: flex;
     align-items: center;
+    
 }
 .cart-text{
-    margin-top: 10px;
+    padding-top: 10px;
     font-size: 14px;
     font-weight: bolder;
 }
 .cart i{
     font-size: 30px;
+}
+
+/* panel */
+.panel{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    background-color: #060237;
+    color: #CCCCCC;
+    font-size: 14px;
+    font-family: arial;
+    
+}
+.panel-all{
+    display: flex;
+    align-items: center;
+}
+.panel-all i{
+    margin-left: 20px;
+}
+.panel-options{
+    display: flex;
+}
+p{
+    margin-right: 25px;
 }
 
