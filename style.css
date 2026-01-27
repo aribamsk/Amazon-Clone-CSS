@@ -189,3 +189,41 @@ width: 80px;
 .hero-msg a{
     color: rgb(45, 158, 227);
 }
+
+
+.content-section{
+    background-color: rgb(238, 247, 68);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 20px;  
+}
+/* box1 */
+
+.gaming{  
+    height: 400px;
+    width: 30%;
+    background-color: #f3f3f3;
+}
+.gaming h2{
+    padding-left: 10px;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+}
+.gaming-image{
+    background-image: url(gaming.jpg);
+    background-size: cover;
+    height: 80%;
+    width: 90%;
+    margin: 10px;
+}
+.gaming a{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    padding: 10px 30px;
+}
+
+/* box2 */
+
+
+
