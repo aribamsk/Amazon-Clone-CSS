@@ -192,38 +192,315 @@ width: 80px;
 
 
 .content-section{
-    background-color: rgb(238, 247, 68);
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; 
-    padding: 20px;  
+    gap: 10px;
+    padding: 10px;
 }
-/* box1 */
-
-.gaming{  
+.gaming{
     height: 400px;
     width: 30%;
+    padding: 15px;
     background-color: #f3f3f3;
 }
 .gaming h2{
-    padding-left: 10px;
+    padding: 5px;
     font-size: 21px;
-    font-family: Arial, sans-serif;
+    font-family: Arial,sans-serif;
 }
 .gaming-image{
-    background-image: url(gaming.jpg);
-    background-size: cover;
     height: 80%;
-    width: 90%;
-    margin: 10px;
+    background-image:url('gaming.jpg');
+    background-size: cover;
+    margin-bottom: 10px;
 }
 .gaming a{
     font-size: 13px;
     font-family: Arial, sans-serif;
-    padding: 10px 30px;
 }
 
-/* box2 */
 
+/* box2 */
+.home-essentials{
+    height: 400px;
+    width: 30%;
+    padding: 15px;
+    background-color: #f3f3f3;
+}
+.home-essentials h2{
+    padding: 5px;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.home-essential-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.box{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.box img{
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+.box p{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin: 5px;
+}
+
+.home-essentials a{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+
+/* box3 */
+.fashion{
+    height: 400px;
+    width: 30%;
+    padding: 15px;
+    background-color: #f3f3f3;
+}
+.fashion h2{
+    padding: 5px;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.fashion-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.box{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.box img{
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+.box p{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin: 5px;
+}
+
+.fashion a{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+/* box5 */
+.home-arrival{
+    height: 400px;
+    width: 30%;
+    padding: 15px;
+    background-color: #f3f3f3;
+}
+.home-arrival h2{
+    padding: 5px;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.home-arrival-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.box{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.box img{
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+.box p{
+    color: black;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin: 5px;
+}
+
+.home-arrival a{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+/* box6 */
+.fashion-trends{
+    height: 400px;
+    width: 30%;
+    padding: 15px;
+    background-color: #f3f3f3;
+}
+.fashion-trends h2{
+    padding: 5px;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.fashion-trends-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.box{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.box img{
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+.box p{
+    color: black;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin: 5px;
+}
+
+.fashion-trends a{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+/* footer */
+.panel-one{
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-family: Arial, sans-serif;
+}
+.panel-two{
+    height: 400px;
+    padding-top: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+ul p{
+    font-weight: bolder;
+}
+ul a{
+    margin: 5px;
+    font-size: smaller;
+    color: #dddddd;
+    display: block;
+    text-decoration: none;   
+}
+ul a:hover{
+    text-decoration: solid;
+}
+.panel-three{
+    background-color: #222f3d;
+    border-top: 2px solid #dddddd;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px ;
+}
+.panel-three div{
+    margin-left: 10px;
+}
+/* amazon logo */
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url('White-Amazon-Logo-PNG-HD-Quality.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 150px;
+}
+/* language dropdown */
+.language{
+    padding: 10px;
+    border: 0.5px solid white;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.language p{
+    font-size: 13px;
+    margin: 0px 20px 0px 2px;
+}
+.language i{
+    color: #dddddd;
+    font-size: 13px;
+}
+/* pakistan dropdown */
+.pakistan{
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid white;
+}
+.pakistan p{
+    color: #CCCCCC;
+    margin: 5px;
+}
+/* usa */
+.usa{
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid white;
+}
+.usa i{
+    color: #f3f3f3;
+    margin: 0px 20px 0px 5px;
+}
+.usa p{
+    color: #CCCCCC;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.panel-four{
+    padding: 20px 0px 20px;
+    background-color: #131a22;
+}
+.panel-four-a{
+    display: flex;
+    color: #ffffff;
+    font-size: 12px;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.panel-four-a p{
+    margin-right: 15px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: #f3f3f3;
+    font-size: 12px;
+}
 
 
