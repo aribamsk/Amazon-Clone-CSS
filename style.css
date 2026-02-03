@@ -1,7 +1,6 @@
 *{
     margin: 0;
     font-family: Arial;
-    border: border-box;
 }
 .navbar{
     height: 60px;
@@ -9,35 +8,30 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-
 .logo{
-    margin-top: 25px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 80px;
     background-image: url(White-Amazon-Logo-PNG-HD-Quality.png);
     background-size:contain;
     background-repeat: no-repeat;
     height: 50px;
-    width: 100px;
+    
 }
-
-
-/**box1**/
-
 .border{
     border: 2px solid transparent;
 }
-
 .border:hover{
     border: 2px solid white;
 }
-
+/**box1**/
 .nav-address{
     height: 50px;
     width: 100px;
 }
-
 .add-first{
     margin-top: 10px;
     margin-left: 20px;
@@ -194,12 +188,12 @@ width: 80px;
 .content-section{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
+    gap: 20px;
+    padding: 20px;
 }
 .gaming{
     height: 400px;
-    width: 30%;
+    width: 21%;
     padding: 15px;
     background-color: #f3f3f3;
 }
@@ -223,7 +217,7 @@ width: 80px;
 /* box2 */
 .home-essentials{
     height: 400px;
-    width: 30%;
+    width: 21%;
     padding: 15px;
     background-color: #f3f3f3;
 }
@@ -264,7 +258,7 @@ width: 80px;
 /* box3 */
 .fashion{
     height: 400px;
-    width: 30%;
+    width: 21%;
     padding: 15px;
     background-color: #f3f3f3;
 }
@@ -300,11 +294,53 @@ width: 80px;
     font-family: Arial, sans-serif;
     margin-top: 20px;
 }
+/* box4 */
+.kitchen{
+    height: 400px;
+    width: 21%;
+    padding: 15px;
+    background-color: #f3f3f3;
+}
+.kitchen h2{
+    padding: 5px;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.kitchen img{
+    width: 98%;
+}
+.kitchen p{
+    color: black;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.kitchen-content{
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+.box{
+    width: 30%;
+}
+.box img{
+    width: 100%;
+    display: block;
+}
+.box p{
+    font-size: 15px;
+    font-family:Arial, sans-serif;
+}
+.kitchen a{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
 
 /* box5 */
 .home-arrival{
     height: 400px;
-    width: 30%;
+    width: 21%;
     padding: 15px;
     background-color: #f3f3f3;
 }
@@ -345,7 +381,7 @@ width: 80px;
 /* box6 */
 .fashion-trends{
     height: 400px;
-    width: 30%;
+    width: 21%;
     padding: 15px;
     background-color: #f3f3f3;
 }
@@ -427,13 +463,14 @@ ul a:hover{
     margin-left: 10px;
 }
 /* amazon logo */
-.logo{
+.logo-bottom{
     height: 50px;
     width: 100px;
     background-image: url('White-Amazon-Logo-PNG-HD-Quality.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 150px;
+    margin-top: 30px;
 }
 /* language dropdown */
 .language{
@@ -502,5 +539,8 @@ p{
     color: #f3f3f3;
     font-size: 12px;
 }
+
+
+
 
 
